@@ -2,7 +2,7 @@
   "name": "donorplasma",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://snh3003.github.io/donoteplasma",
+  "homepage":"https://snh3003.github.io/donateplasma",
   "dependencies": {
     "@brainhubeu/react-carousel": "^1.19.22",
     "@testing-library/jest-dom": "^4.2.4",
