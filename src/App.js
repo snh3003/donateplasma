@@ -1,24 +1,25 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import NavComp from './Components/NavComp';
+import Slider from './Components/Slider';
+import Donors from './Components/Donors/Donors';
+import NewDonor from './Components/NewDonor/NewDonor';
+import ShareStory from './Components/ShareStory';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <NavComp />
+      <Router>
+      	<Switch>
+	      	<Route exact path="/" component={Slider} />
+	      	<Route path="/donors" component={Donors} />
+	      	<Route path="/newdonor" component={NewDonor} />
+	      	<Route path="/sharestory" component={ShareStory} />
+	    </Switch>
+      </Router>
+      
+      
     </div>
   );
 }
