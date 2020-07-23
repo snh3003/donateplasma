@@ -1,6 +1,5 @@
 import React from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
-
 class NavComp extends React.Component {
 
 	render(){
@@ -26,7 +25,7 @@ class NavComp extends React.Component {
 								width='25px' height='25px'
 							/>
 						    <label>
-						    	<Nav.Link href="/">
+						    	<Nav.Link href="/donateplasma">
 									Home
 								</Nav.Link>
 						    </label>
@@ -69,6 +68,7 @@ class NavComp extends React.Component {
 					</Nav>
 				</Navbar.Collapse>
 			</Navbar>
+			
 		</div>
 	)
 	}

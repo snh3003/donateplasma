@@ -7,34 +7,48 @@ const NewDonor = () => {
 		<div>
 			<center>
 				<h2>Be a donor </h2>
+				<br />
 				<img src={undraw} alt="heart" width="100px" height="100px"/>
-			</center>			
+				<br />
+				<br />
+						
 			<div className="input_box card">
 				<center>
-					<div>
-						<br />
-						<br />
-						<input type="text" placeholder="Name" />
-						<br />
-						<br />
-						<input type="text" placeholder="Blood Group"/>
-						<br />
-						<br />
-						<input type="number" placeholder="Phone number"/>
-						<br />
-						<br />
-						<input type="text" placeholder="Location"/>
-						<br />
-						<br />
-						<center><button> Submit </button></center>
-						<br />
-						<br />
-					</div>
+					<br />
+					<form class="ui form">
+					  <div class="field">
+					    <label>Name</label>
+					    <input type="text" name="full-name" placeholder="Full Name" />
+					  </div>
+					  <div class="field">
+					    <label>Blood group</label>
+					    <input type="text" name="blood-group" placeholder="Blood group" />
+					  </div>
+					  <div class="field">
+					    <label>Age</label>
+					    <input type="number" name="age" placeholder="Age" />
+					  </div>
+					  <div class="field">
+					    <label>Phone Number</label>
+					    <input type="number" name="phone" placeholder="Phone Number" />
+					  </div>
+					  <div class="field">
+					    <label>Location</label>
+					    <input type="text" name="location" placeholder="Location" />
+					  </div>
+					  <div class="field">
+					    <div class="ui checkbox">
+					      <input type="checkbox" tabindex="0" class="hidden" />
+					      <label>I agree to the Terms and Conditions</label>
+					    </div>
+					  </div>
+					  <button class="ui button" type="submit">Submit</button>
+					</form>
+					<br />
 				</center>						
-			</div>
+			</div></center>
 			<br />
 			<br />
-
 		</div>
 		
 	)

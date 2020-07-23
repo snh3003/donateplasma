@@ -4,7 +4,7 @@ import NavComp from './Components/NavComp';
 import Slider from './Components/Slider';
 import Donors from './Components/Donors/Donors';
 import NewDonor from './Components/NewDonor/NewDonor';
-import ShareStory from './Components/ShareStory';
+import ShareStory from './Components/ShareStory/ShareStory';
 
 const App = () => {
   return (
@@ -12,7 +12,7 @@ const App = () => {
       <NavComp />
       <Router>
       	<Switch>
-	      	<Route exact path="/" component={Slider} />
+	      	<Route exact path="/donateplasma" component={Slider} />
 	      	<Route path="/donors" component={Donors} />
 	      	<Route path="/newdonor" component={NewDonor} />
 	      	<Route path="/sharestory" component={ShareStory} />
