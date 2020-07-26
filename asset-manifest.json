@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/donateplasma/static/css/main.0cabf186.chunk.css",
-    "main.js": "/donateplasma/static/js/main.0b796273.chunk.js",
-    "main.js.map": "/donateplasma/static/js/main.0b796273.chunk.js.map",
+    "main.js": "/donateplasma/static/js/main.1c8b898f.chunk.js",
+    "main.js.map": "/donateplasma/static/js/main.1c8b898f.chunk.js.map",
     "runtime-main.js": "/donateplasma/static/js/runtime-main.aa67ee20.js",
     "runtime-main.js.map": "/donateplasma/static/js/runtime-main.aa67ee20.js.map",
     "static/css/2.61a6e784.chunk.css": "/donateplasma/static/css/2.61a6e784.chunk.css",
     "static/js/2.95b594b2.chunk.js": "/donateplasma/static/js/2.95b594b2.chunk.js",
     "static/js/2.95b594b2.chunk.js.map": "/donateplasma/static/js/2.95b594b2.chunk.js.map",
     "index.html": "/donateplasma/index.html",
-    "precache-manifest.6c54b867629f09f1e0d3b60b3cbb7f46.js": "/donateplasma/precache-manifest.6c54b867629f09f1e0d3b60b3cbb7f46.js",
+    "precache-manifest.62814d7851ecd0d6eea2d9b15e00c810.js": "/donateplasma/precache-manifest.62814d7851ecd0d6eea2d9b15e00c810.js",
     "service-worker.js": "/donateplasma/service-worker.js",
     "static/css/2.61a6e784.chunk.css.map": "/donateplasma/static/css/2.61a6e784.chunk.css.map",
     "static/css/main.0cabf186.chunk.css.map": "/donateplasma/static/css/main.0cabf186.chunk.css.map",
@@ -27,6 +27,6 @@
     "static/css/2.61a6e784.chunk.css",
     "static/js/2.95b594b2.chunk.js",
     "static/css/main.0cabf186.chunk.css",
-    "static/js/main.0b796273.chunk.js"
+    "static/js/main.1c8b898f.chunk.js"
   ]
 }

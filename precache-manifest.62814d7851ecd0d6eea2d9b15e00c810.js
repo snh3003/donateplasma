@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "78ec3ded50218bd094c7404ad0b375ad",
+    "revision": "f87985b0e81d5ed9a38999fcc6e1c617",
     "url": "/donateplasma/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/donateplasma/static/css/2.61a6e784.chunk.css"
   },
   {
-    "revision": "7f1dcdbc2fb6e930f093",
+    "revision": "b58e53ac8062fc71f15c",
     "url": "/donateplasma/static/css/main.0cabf186.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/donateplasma/static/js/2.95b594b2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7f1dcdbc2fb6e930f093",
-    "url": "/donateplasma/static/js/main.0b796273.chunk.js"
+    "revision": "b58e53ac8062fc71f15c",
+    "url": "/donateplasma/static/js/main.1c8b898f.chunk.js"
   },
   {
     "revision": "a929c49df922e159cda1",
