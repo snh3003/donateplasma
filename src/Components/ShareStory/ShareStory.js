@@ -42,13 +42,13 @@ class ShareStory extends React.Component{
 			</center>
 			<center>
 			<section className="donorparent">
-				<img 
+				<img className="image"
 					alt="" 
 					src={medicalcare} 
 					width="300px" height="300px" 
 					
 				/>
-				<div className="input_box card ">
+				<div className="card ">
 					<center>
 						<br />
 						<form className="ui form">
@@ -76,7 +76,7 @@ class ShareStory extends React.Component{
 						<br />
 					</center>						
 				</div>
-				<img 
+				<img className="image"
 					alt="" 
 					src={sharedgoals} 
 					width="300px" height="300px" 
