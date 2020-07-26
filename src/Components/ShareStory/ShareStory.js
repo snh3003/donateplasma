@@ -10,7 +10,7 @@ const ShareStory = () => {
 			<center>
 				<h2>Share your story </h2>
 				<br />
-				<img src={donate} alt="heart" width="100px" height="100px"/>
+				<img src={donate} alt="heart" width="200px" height="200px"/>
 				<br />
 				<br />
 			</center>
@@ -53,7 +53,6 @@ const ShareStory = () => {
 					alt="" 
 					src={sharedgoals} 
 					width="300px" height="300px" 
-					
 				/>		
 			</section>
 			</center>
