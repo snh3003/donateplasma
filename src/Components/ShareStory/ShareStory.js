@@ -4,8 +4,34 @@ import './ShareStory.css';
 import medicalcare from '../assets/medicalcare.png';
 import sharedgoals from '../assets/sharedgoals.png';
 
-const ShareStory = () => {
-	return (
+class ShareStory extends React.Component{
+
+	constructor(){
+		super();
+		this.state={
+			fullName: '',
+			story: '',
+			location: '',
+			checked: true
+
+		}
+		this.handleChange = this.handleChange.bind(this);
+	}
+	handleChange(event){
+		const {name, value, type, checked} = event.target;
+		type === 'checkbox' ? 
+
+		this.setState({
+			[name]: checked
+		}) 
+		: 
+		this.setState({
+			[name]: value
+		})
+	}
+
+	render(){
+		return (
 		<div>
 			<center>
 				<h2>Share your story </h2>
@@ -25,26 +51,27 @@ const ShareStory = () => {
 				<div className="input_box card ">
 					<center>
 						<br />
-						<form class="ui form">
-						  <div class="field">
+						<form className="ui form">
+						  <div className="field">
 						    <label>Name</label>
-						    <input type="text" name="full-name" placeholder="Full Name" />
+						    <input type="text" name="fullName" placeholder="Full Name" onChange={this.handleChange}/>
 						  </div>
-						  <div class="field">
-						    <label>Story</label>
-						    <input type="text" name="story" placeholder="Write your story here" />
-						  </div>
-						  <div class="field">
+						  <div className="field">
 						    <label>Location</label>
-						    <input type="text" name="location" placeholder="Location" />
+						    <input type="text" name="location" placeholder="Location" onChange={this.handleChange}/>
 						  </div>
-						  <div class="field">
-						    <div class="ui checkbox">
-						      <input type="checkbox" tabindex="0" class="hidden" />
+						  <div className="field">
+						    <label>Story</label>
+						    <textarea name="story" placeholder="Write your story here" onChange={this.handleChange}/>
+						  </div>
+						  
+						  <div className="field">
+						    <div className="ui checkbox">
+						      <input type="checkbox" checked={this.state.isChecked} onChange={this.handleChange}/>
 						      <label>I agree to the Terms and Conditions</label>
 						    </div>
 						  </div>
-						  <button class="ui button" type="submit">Submit</button>
+						  <button className="ui button" type="submit">Submit</button>
 						</form>
 						<br />
 					</center>						
@@ -59,5 +86,8 @@ const ShareStory = () => {
 		</div>
 		
 	)
+	}
+
+	
 }
 export default ShareStory;

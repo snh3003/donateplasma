@@ -2,8 +2,33 @@ import React from 'react';
 import undraw from "../assets/undraw.png";
 import './NewDonor.css';
 
-const NewDonor = () => {
-	return (
+class NewDonor extends React.Component {
+
+	constructor(){
+		super();
+		this.state={
+			isChecked: true,
+			fullName: '',
+			age: null,
+			bloodGroup: '',
+			phone: null,
+			location: ''
+		}
+		this.handleChange = this.handleChange.bind(this);
+	}
+	handleChange(event){
+		const {name, value, type, checked} = event.target;
+		type === "checkbox" ? this.setState({
+			[name]: checked
+		})
+
+		: this.setState({
+			[name] : value
+		})
+		
+	}
+	render(){
+		return (
 		<div>
 			<center>
 				<h2>Be a donor </h2>
@@ -15,34 +40,45 @@ const NewDonor = () => {
 			<div className="input_box card">
 				<center>
 					<br />
-					<form class="ui form">
-					  <div class="field">
+					<form className="ui form">
+					  <div className="field">
 					    <label>Name</label>
-					    <input type="text" name="full-name" placeholder="Full Name" />
+					    <input type="text" name="fullName" placeholder="Full Name" />
 					  </div>
-					  <div class="field">
+					  <div className="field">
 					    <label>Blood group</label>
-					    <input type="text" name="blood-group" placeholder="Blood group" />
+					    <input type="text" name="bloodGroup" placeholder="Blood group" />
 					  </div>
-					  <div class="field">
+					  <div className="field">
 					    <label>Age</label>
 					    <input type="number" name="age" placeholder="Age" />
 					  </div>
-					  <div class="field">
+					  <div className="field">
 					    <label>Phone Number</label>
 					    <input type="number" name="phone" placeholder="Phone Number" />
 					  </div>
-					  <div class="field">
+					  <div className="field">
 					    <label>Location</label>
 					    <input type="text" name="location" placeholder="Location" />
 					  </div>
-					  <div class="field">
-					    <div class="ui checkbox">
-					      <input type="checkbox" tabindex="0" class="hidden" />
+					  <div className="field">
+					    <div className="ui checkbox">
+					      <input 
+					      	type="checkbox" 
+					      	 
+					      	name="isChecked" 
+					      	onChange = {this.handleChange} 
+					      	checked={this.state.isChecked} 
+					      />
 					      <label>I agree to the Terms and Conditions</label>
 					    </div>
 					  </div>
-					  <button class="ui button" type="submit">Submit</button>
+
+					  <button 
+					  	className="ui button" 
+					  	type="submit"
+					  	onClick={() => console.log(this.state)}
+					  >Submit</button>
 					</form>
 					<br />
 				</center>						
@@ -51,6 +87,8 @@ const NewDonor = () => {
 			<br />
 		</div>
 		
-	)
+	)	
+	}
+	
 }
 export default NewDonor;

@@ -4,9 +4,10 @@ import './Donors.css';
 import calling from '../assets/calling.svg';
 import connect from '../assets/connect.svg';
 
-const Donors = () => {
+class Donors extends React.Component {
 
-	return (
+	render(){
+		return (
 		<div>
 			<br/>
 			<br/>
@@ -199,5 +200,6 @@ const Donors = () => {
 			</section>
 		</div>
 		)
+	}	
 }
 export default Donors;
