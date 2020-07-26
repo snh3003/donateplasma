@@ -5,6 +5,7 @@ import calling from '../assets/calling.svg';
 import connect from '../assets/connect.svg';
 
 const Donors = () => {
+
 	return (
 		<div>
 			<br/>
@@ -140,6 +141,33 @@ const Donors = () => {
 						        </div>
 						      </Card.Content>
 						    </Card>
+						    <Card className="card-box">
+						      <Card.Content>
+						        <Image
+						          floated='right'
+						          size='mini'
+						          src='https://react.semantic-ui.com/images/avatar/large/molly.png'
+						        />
+						        <Card.Header>Molly Thomas</Card.Header>
+						        <Card.Meta>New User</Card.Meta>
+						        <Card.Description>
+						          Molly wants to add you to the group <strong>musicians</strong>
+						        </Card.Description>
+						      </Card.Content>
+						      <Card.Content extra className="card-box">
+						        <div className='ui two buttons'>
+						          <Button basic color='green'>
+						            Call
+						          </Button>
+						          <Button basic color='red'>
+						            Email
+						          </Button>
+						        </div>
+						      </Card.Content>
+						    </Card>
+						    {{
+						    	
+						    }}
 						    <Card className="card-box">
 						      <Card.Content>
 						        <Image
