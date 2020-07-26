@@ -12,10 +12,10 @@ const App = () => {
       <NavComp />
       <Router>
       	<Switch>
-	      	<Route exact path="/donateplasma" component={Slider} />
-	      	<Route path="/donors" component={Donors} />
-	      	<Route path="/newdonor" component={NewDonor} />
-	      	<Route path="/sharestory" component={ShareStory} />
+	      	<Route exact path="/donateplasma/" component={Slider} />
+	      	<Route path="/donateplasma/donors/" component={Donors} />
+	      	<Route path="/donateplasma/newdonor/" component={NewDonor} />
+	      	<Route path="/donateplasma/sharestory/" component={ShareStory} />
 	    </Switch>
       </Router>
       

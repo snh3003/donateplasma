@@ -165,9 +165,7 @@ const Donors = () => {
 						        </div>
 						      </Card.Content>
 						    </Card>
-						    {{
-						    	
-						    }}
+						    
 						    <Card className="card-box">
 						      <Card.Content>
 						        <Image

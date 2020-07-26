@@ -11,7 +11,7 @@ class NavComp extends React.Component {
 					src="https://img.icons8.com/color/96/000000/coronavirus.png"
 					width='40px' height='40px'
 				/>
-				Donor Plasma
+				Plasma Donor
 				</Navbar.Brand>
 				<Navbar.Toggle aria-controls="basic-navbar-nav" />
 				<Navbar.Collapse id="basic-navbar-nav">
@@ -25,7 +25,7 @@ class NavComp extends React.Component {
 								width='25px' height='25px'
 							/>
 						    <label>
-						    	<Nav.Link href="/donateplasma">
+						    	<Nav.Link href="/donateplasma/">
 									Home
 								</Nav.Link>
 						    </label>
@@ -37,7 +37,7 @@ class NavComp extends React.Component {
 						      width='25px' height='25px'
 						       />
 							<label>
-						    	<Nav.Link href="/donors">
+						    	<Nav.Link href="/donateplasma/donors/">
 									Find Donors
 								</Nav.Link>
 						    </label>						 
@@ -48,7 +48,7 @@ class NavComp extends React.Component {
 					    		width='25px' height='25px'
 					    	/>
 							<label>
-						    	<Nav.Link href="/newdonor">
+						    	<Nav.Link href="/donateplasma/newdonor/">
 									Donate plasma
 								</Nav.Link>
 						    </label>					 
@@ -60,7 +60,7 @@ class NavComp extends React.Component {
 					    		width='25px' height='25px'
 					    	/>
 							<label>
-						    	<Nav.Link href="/sharestory">
+						    	<Nav.Link href="/donateplasma/sharestory/">
 									Share your story
 								</Nav.Link>
 						    </label>					 
