@@ -1,11 +1,13 @@
 import React from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
+import './NavComp.css';
+
 class NavComp extends React.Component {
 
 	render(){
 		return (
 		<div>
-			<Navbar expand="lg" bg="primary" variant="dark">
+			<Navbar expand="lg" bg="primary" variant="dark" >
 				<Navbar.Brand href="#">
 				<img alt=""
 					src="https://img.icons8.com/color/96/000000/coronavirus.png"

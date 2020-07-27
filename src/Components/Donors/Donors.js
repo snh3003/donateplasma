@@ -9,17 +9,15 @@ class Donors extends React.Component {
 	render(){
 		return (
 		<div>
-			<br/>
-			<br/>
-			<center><h2>Find Donors</h2></center>
+			
+			<h2>Find Donors</h2>
 			<section  className="donorparent">
 				<div className="rightchild">
 					
 					<img alt="call" src={calling} width="300px" height="300px"/>
 				</div>
 				<main className="midchild">
-					<br />
-					<br />
+					
 					<div className="cards">
 						<Card.Group>
 						    <Card className="card-box">

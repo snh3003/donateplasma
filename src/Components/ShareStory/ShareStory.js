@@ -33,13 +33,11 @@ class ShareStory extends React.Component{
 	render(){
 		return (
 		<div>
-			<center>
-				<h2>Share your story </h2>
-				<br />
-				
-				
-			</center>
-			<center>
+			
+				<h2>Share your story </h2>	
+			
+			
+			
 				<div className="container">  
 					<form id="contact">
 						<fieldset>
@@ -66,22 +64,26 @@ class ShareStory extends React.Component{
 						</fieldset>
 					</form>
 				</div>			
-			
-			<section className="donorParent">
-				<img className="image"
-						alt="" 
-						src={medicalcare} 
-						width="300px" height="300px" 
-						
-				/>
-				<img src={donate} alt="heart" width="200px" height="200px"/>
-				<img className="image"
-						alt="" 
-						src={sharedgoals} 
-						width="300px" height="300px" 
+			<center>
+				<section className="donorParent">
+					<img className="image"
+							alt="" 
+							src={medicalcare} 
+							width="300px" height="300px" 		
 					/>
-			</section>
+					<img 
+						src={donate} 
+						alt="heart" 
+						width="200px" height="200px"
+					/>
+					<img className="image"
+							alt="" 
+							src={sharedgoals} 
+							width="300px" height="300px" 
+					/>
+				</section>
 			</center>
+			
 			</div>
 		
 	)

@@ -5,6 +5,7 @@ import Slider from './Components/Slider';
 import Donors from './Components/Donors/Donors';
 import NewDonor from './Components/NewDonor/NewDonor';
 import ShareStory from './Components/ShareStory/ShareStory';
+import './App.css';
 
 const App = () => {
   return (
