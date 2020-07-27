@@ -36,25 +36,25 @@ class NewDonor extends React.Component {
 				<img src={undraw} alt="heart" width="100px" height="100px"/>
 				
 			</center>			
-			<div class="container">  
+			<div className="container">  
 				<form id="contact">
 					<fieldset>
-						<input placeholder="Your name" type="text" required autofocus/>
+						<input name="name" placeholder="Your name" type="text" required autofocus/>
 					</fieldset>
 					<fieldset>
-						<input placeholder="Your Email Address" type="email" required/>
+						<input name="email" placeholder="Your Email Address" type="email" required/>
 					</fieldset>
 					<fieldset>
-						<input placeholder="Your current age" type="text" required/>
+						<input name="age" placeholder="Your current age" type="text" required/>
 					</fieldset>
 					<fieldset>
-						<input placeholder="Your blood group" type="text" required/>
+						<input name="bloodGroup" placeholder="Your blood group" type="text" required/>
 					</fieldset>
 					<fieldset>
-						<input placeholder="Your Phone Number" type="tel" required/>
+						<input name="phoneNo" placeholder="Your Phone Number" type="tel" required/>
 					</fieldset>
 					<fieldset>
-						<input placeholder="Your location" type="text" required/>
+						<input name="location" placeholder="Your location" type="text" required/>
 					</fieldset>
 					<input 
 					    type="checkbox"   	 

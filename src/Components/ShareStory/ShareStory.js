@@ -36,18 +36,10 @@ class ShareStory extends React.Component{
 			<center>
 				<h2>Share your story </h2>
 				<br />
-				<img src={donate} alt="heart" width="200px" height="200px"/>
+				
 				
 			</center>
 			<center>
-			<section className="donorparent">
-				<img className="image"
-					alt="" 
-					src={medicalcare} 
-					width="300px" height="300px" 
-					
-				/>
-			</section>
 				<div className="container">  
 					<form id="contact">
 						<fieldset>
@@ -76,6 +68,13 @@ class ShareStory extends React.Component{
 				</div>			
 			
 			<section className="donorParent">
+				<img className="image"
+						alt="" 
+						src={medicalcare} 
+						width="300px" height="300px" 
+						
+				/>
+				<img src={donate} alt="heart" width="200px" height="200px"/>
 				<img className="image"
 						alt="" 
 						src={sharedgoals} 
