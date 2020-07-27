@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/donateplasma/static/css/main.88c22e4c.chunk.css",
-    "main.js": "/donateplasma/static/js/main.6c1bb9eb.chunk.js",
-    "main.js.map": "/donateplasma/static/js/main.6c1bb9eb.chunk.js.map",
+    "main.css": "/donateplasma/static/css/main.2daf7a03.chunk.css",
+    "main.js": "/donateplasma/static/js/main.aa392f94.chunk.js",
+    "main.js.map": "/donateplasma/static/js/main.aa392f94.chunk.js.map",
     "runtime-main.js": "/donateplasma/static/js/runtime-main.aa67ee20.js",
     "runtime-main.js.map": "/donateplasma/static/js/runtime-main.aa67ee20.js.map",
     "static/css/2.61a6e784.chunk.css": "/donateplasma/static/css/2.61a6e784.chunk.css",
-    "static/js/2.4412a275.chunk.js": "/donateplasma/static/js/2.4412a275.chunk.js",
-    "static/js/2.4412a275.chunk.js.map": "/donateplasma/static/js/2.4412a275.chunk.js.map",
+    "static/js/2.b191e621.chunk.js": "/donateplasma/static/js/2.b191e621.chunk.js",
+    "static/js/2.b191e621.chunk.js.map": "/donateplasma/static/js/2.b191e621.chunk.js.map",
     "index.html": "/donateplasma/index.html",
-    "precache-manifest.45f8f6dc7a169530f5a5312ba617c28a.js": "/donateplasma/precache-manifest.45f8f6dc7a169530f5a5312ba617c28a.js",
+    "precache-manifest.78372892d856841690ec8bf54e116451.js": "/donateplasma/precache-manifest.78372892d856841690ec8bf54e116451.js",
     "service-worker.js": "/donateplasma/service-worker.js",
     "static/css/2.61a6e784.chunk.css.map": "/donateplasma/static/css/2.61a6e784.chunk.css.map",
-    "static/css/main.88c22e4c.chunk.css.map": "/donateplasma/static/css/main.88c22e4c.chunk.css.map",
-    "static/js/2.4412a275.chunk.js.LICENSE.txt": "/donateplasma/static/js/2.4412a275.chunk.js.LICENSE.txt",
+    "static/css/main.2daf7a03.chunk.css.map": "/donateplasma/static/css/main.2daf7a03.chunk.css.map",
+    "static/js/2.b191e621.chunk.js.LICENSE.txt": "/donateplasma/static/js/2.b191e621.chunk.js.LICENSE.txt",
     "static/media/semantic.min.css": "/donateplasma/static/media/outline-icons.ef60a4f6.woff",
     "static/media/calling.svg": "/donateplasma/static/media/calling.ae2ae124.svg",
     "static/media/connect.svg": "/donateplasma/static/media/connect.83aaa479.svg",
@@ -25,8 +25,8 @@
   "entrypoints": [
     "static/js/runtime-main.aa67ee20.js",
     "static/css/2.61a6e784.chunk.css",
-    "static/js/2.4412a275.chunk.js",
-    "static/css/main.88c22e4c.chunk.css",
-    "static/js/main.6c1bb9eb.chunk.js"
+    "static/js/2.b191e621.chunk.js",
+    "static/css/main.2daf7a03.chunk.css",
+    "static/js/main.aa392f94.chunk.js"
   ]
 }
