@@ -1,5 +1,4 @@
 
-
 .donorparent{
 	display: flex;
 	flex-flow: row wrap;
@@ -12,6 +11,7 @@
 	position: relative;
 }
 #contact {
+	opacity: 0.9;
 	background: #306EFF;
 	padding: 25px;
 	margin: 50px 0;
