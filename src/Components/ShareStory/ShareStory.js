@@ -37,8 +37,7 @@ class ShareStory extends React.Component{
 				<h2>Share your story </h2>
 				<br />
 				<img src={donate} alt="heart" width="200px" height="200px"/>
-				<br />
-				<br />
+				
 			</center>
 			<center>
 			<section className="donorparent">
@@ -48,42 +47,43 @@ class ShareStory extends React.Component{
 					width="300px" height="300px" 
 					
 				/>
-				<div className="card ">
-					<center>
-						<br />
-						<form className="ui form">
-						  <div className="field">
-						    <label>Name</label>
-						    <input type="text" name="fullName" placeholder="Full Name" onChange={this.handleChange}/>
-						  </div>
-						  <div className="field">
-						    <label>Location</label>
-						    <input type="text" name="location" placeholder="Location" onChange={this.handleChange}/>
-						  </div>
-						  <div className="field">
-						    <label>Story</label>
-						    <textarea name="story" placeholder="Write your story here" onChange={this.handleChange}/>
-						  </div>
-						  
-						  <div className="field">
-						    <div className="ui checkbox">
-						      <input type="checkbox" checked={this.state.isChecked} onChange={this.handleChange}/>
-						      <label>I agree to the Terms and Conditions</label>
-						    </div>
-						  </div>
-						  <button className="ui button" type="submit">Submit</button>
-						</form>
-						<br />
-					</center>						
-				</div>
+			</section>
+				<div className="container">  
+					<form id="contact">
+						<fieldset>
+							<input name="name" placeholder="Your name" type="text" required autofocus/>
+						</fieldset>
+						<fieldset>
+							<input name="email" placeholder="Your Email Address" type="email" required/>
+						</fieldset>
+						<fieldset>
+							<input name="location" placeholder="Your location" type="text" required/>
+						</fieldset>
+						<fieldset>
+							<textarea placeholder="Write your story here"></textarea>
+						</fieldset>
+						<input 
+							type="checkbox"   	 
+							name="isChecked" 
+							onChange = {this.handleChange} 
+							checked={this.state.isChecked} 
+						/>
+						<label>I agree to the Terms and Conditions</label>
+						<fieldset>
+							<button name="submit" type="submit" id="contact-submit" onClick={() => console.log(this.state)}>Submit</button>
+						</fieldset>
+					</form>
+				</div>			
+			
+			<section className="donorParent">
 				<img className="image"
-					alt="" 
-					src={sharedgoals} 
-					width="300px" height="300px" 
-				/>		
+						alt="" 
+						src={sharedgoals} 
+						width="300px" height="300px" 
+					/>
 			</section>
 			</center>
-		</div>
+			</div>
 		
 	)
 	}
