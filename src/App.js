@@ -5,11 +5,11 @@ import Home from './Home/Home';
 import Donors from './Components/Donors/Donors';
 import NewDonor from './Components/NewDonor/NewDonor';
 import ShareStory from './Components/ShareStory/ShareStory';
-import './App.css';
+import styles from './App.module.css';
 
 const App = () => {
   return (
-    <div className="bodyImg">
+    <div>
       <NavComp />
       <Router>
       	<Switch>

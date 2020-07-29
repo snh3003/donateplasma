@@ -1,10 +1,11 @@
-body {
-    text-align: center;
-    background-color: rgb(250,250, 250);
-  }
+
 
 .top{
-  background: url(../Components/assets/covid-19.jpg);
+  background: url(../Components/assets/covid.jpg);
+  background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: auto;
 }
 .container{
     display: flex;
