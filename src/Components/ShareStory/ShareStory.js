@@ -1,6 +1,6 @@
 import React from 'react';
 import donate from "../assets/donate.png";
-import './ShareStory.css';
+import styles from './ShareStory.module.css';
 import medicalcare from '../assets/medicalcare.png';
 import sharedgoals from '../assets/sharedgoals.png';
 
@@ -31,12 +31,15 @@ class ShareStory extends React.Component{
 	}
 
 	render(){
+		{/* this is a comment */}
 		return (
-		<div className="bgImg">
-				<h2>Share your story </h2>
-				<center>
-				<section className="donorParent">
-					<img className="image"
+		
+		<div>
+			<h2>Share your story </h2>
+			`{/* This is a comment */}`
+			<center>
+				<section className={styles.donorParent}>
+					<img className={styles.image}
 							alt="" 
 							src={medicalcare} 
 							width="300px" height="300px" 		
@@ -46,15 +49,15 @@ class ShareStory extends React.Component{
 						alt="heart" 
 						width="200px" height="200px"
 					/>
-					<img className="image"
+					<img className={styles.image}
 							alt="" 
 							src={sharedgoals} 
 							width="300px" height="300px" 
 					/>
 				</section>
 			</center>	
-				<div className="container">  
-					<form id="contact">
+				<div className={styles.container}>  
+					<form className={styles.contact}>
 						<fieldset>
 							<input name="name" placeholder="Your name" type="text" required autofocus/>
 						</fieldset>

@@ -1,14 +1,10 @@
 h2{
-	
 	border-right: 10px solid red;
 	border-left: 10px solid red;
 	text-align: center;
 }
 .bodyImg{
-	background: url('./Components/assets/covid-19.jpg');
-	/* Set a specific height */
 	
-
 	/* Create the parallax scrolling effect */
 	background-attachment: fixed;
 	background-position: center;

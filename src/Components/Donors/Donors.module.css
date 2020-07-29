@@ -10,11 +10,10 @@
 	flex-direction: row;
 	flex-wrap: wrap;
 	align-self: center;
-}
-.card-box{
 	transition: transform .2s;
 }
-.card-box:hover{
+
+.card:hover{
 	transform: scale(1.2);
 }
 

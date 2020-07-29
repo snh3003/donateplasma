@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button, Card, Image } from 'semantic-ui-react';
-import './Donors.css';
+import styles from './Donors.module.css';
 import calling from '../assets/calling.svg';
 import connect from '../assets/connect.svg';
 
@@ -11,16 +11,16 @@ class Donors extends React.Component {
 		<div>
 			
 			<h2>Find Donors</h2>
-			<section  className="donorparent">
-				<div className="rightchild">
+			<section  className={styles.donorparent}>
+				<div className={styles.rightchild}>
 					
 					<img alt="call" src={calling} width="300px" height="300px"/>
 				</div>
-				<main className="midchild">
+				<main className={styles.midchild}>
 					
-					<div className="cards">
+					<div className={styles.cards}>
 						<Card.Group>
-						    <Card className="card-box">
+						    <Card className={styles.cards}>
 						      <Card.Content >
 						        <Image
 						          floated='right'
@@ -44,7 +44,7 @@ class Donors extends React.Component {
 						        </div>
 						      </Card.Content>
 						    </Card>
-						    <Card className="card-box">
+						    <Card className={styles.cards}>
 						      <Card.Content >
 						        <Image
 						          floated='right'
@@ -68,7 +68,7 @@ class Donors extends React.Component {
 						        </div>
 						      </Card.Content>
 						    </Card>
-						    <Card  className="card-box">
+						    <Card  className="cards">
 						      <Card.Content>
 						        <Image
 						          floated='right'
@@ -81,7 +81,7 @@ class Donors extends React.Component {
 						          Jenny requested permission to view your contact details
 						        </Card.Description>
 						      </Card.Content>
-						      <Card.Content extra className="card-box">
+						      <Card.Content extra className={styles.cards}>
 						        <div className='ui two buttons'>
 						          <Button basic color='green'>
 						            Call
@@ -92,7 +92,7 @@ class Donors extends React.Component {
 						        </div>
 						      </Card.Content>
 						    </Card>
-						    <Card  className="card-box">
+						    <Card  className={styles.cards}>
 						      <Card.Content>
 						        <Image
 						          floated='right'
@@ -116,7 +116,7 @@ class Donors extends React.Component {
 						        </div>
 						      </Card.Content>
 						    </Card>
-						    <Card className="card-box">
+						    <Card className={styles.cards}>
 						      <Card.Content>
 						        <Image
 						          floated='right'
@@ -129,7 +129,7 @@ class Donors extends React.Component {
 						          Jenny requested permission to view your contact details
 						        </Card.Description>
 						      </Card.Content>
-						      <Card.Content extra className="card-box">
+						      <Card.Content extra className={styles.cards}>
 						        <div className='ui two buttons'>
 						          <Button basic color='green'>
 						            Call
@@ -140,7 +140,7 @@ class Donors extends React.Component {
 						        </div>
 						      </Card.Content>
 						    </Card>
-						    <Card className="card-box">
+						    <Card className={styles.cards}>
 						      <Card.Content>
 						        <Image
 						          floated='right'
@@ -153,7 +153,7 @@ class Donors extends React.Component {
 						          Molly wants to add you to the group <strong>musicians</strong>
 						        </Card.Description>
 						      </Card.Content>
-						      <Card.Content extra className="card-box">
+						      <Card.Content extra className={styles.cards}>
 						        <div className='ui two buttons'>
 						          <Button basic color='green'>
 						            Call
@@ -165,7 +165,7 @@ class Donors extends React.Component {
 						      </Card.Content>
 						    </Card>
 						    
-						    <Card className="card-box">
+						    <Card className={styles.cards}>
 						      <Card.Content>
 						        <Image
 						          floated='right'
@@ -178,7 +178,7 @@ class Donors extends React.Component {
 						          Molly wants to add you to the group <strong>musicians</strong>
 						        </Card.Description>
 						      </Card.Content>
-						      <Card.Content extra className="card-box">
+						      <Card.Content extra className={styles.cards}>
 						        <div className='ui two buttons'>
 						          <Button basic color='green'>
 						            Call
@@ -192,7 +192,7 @@ class Donors extends React.Component {
 						  </Card.Group>
 					</div>
 				</main>
-				<div className="leftchild">					
+				<div className={styles.leftchild}>					
 					<img alt="connect" src={connect} width="300px" height="300px"/>
 				</div>
 			</section>

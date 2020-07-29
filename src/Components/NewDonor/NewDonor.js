@@ -1,6 +1,6 @@
 import React from 'react';
 import undraw from "../assets/undraw.png";
-import './NewDonor.css';
+import styles from './NewDonor.module.css';
 
 class NewDonor extends React.Component {
 
@@ -29,15 +29,15 @@ class NewDonor extends React.Component {
 	}
 	render(){
 		return (
-		<div className="parent">
+		<div className={styles.parent}>
 			<center>
 				<h2>Be a donor </h2>
 				<br />
 				<img src={undraw} alt="heart" width="100px" height="100px"/>
 				
 			</center>			
-			<div className="container">  
-				<form id="contact">
+			<div className={styles.container}>  
+				<form className={styles.contact}>
 					<fieldset>
 						<input name="name" placeholder="Your name" type="text" required autofocus/>
 					</fieldset>
