@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/donateplasma/static/css/main.dc6d1cbe.chunk.css",
-    "main.js": "/donateplasma/static/js/main.353baa59.chunk.js",
-    "main.js.map": "/donateplasma/static/js/main.353baa59.chunk.js.map",
+    "main.css": "/donateplasma/static/css/main.36f26116.chunk.css",
+    "main.js": "/donateplasma/static/js/main.2b38ea58.chunk.js",
+    "main.js.map": "/donateplasma/static/js/main.2b38ea58.chunk.js.map",
     "runtime-main.js": "/donateplasma/static/js/runtime-main.aa67ee20.js",
     "runtime-main.js.map": "/donateplasma/static/js/runtime-main.aa67ee20.js.map",
-    "static/css/2.61a6e784.chunk.css": "/donateplasma/static/css/2.61a6e784.chunk.css",
-    "static/js/2.ba6dd949.chunk.js": "/donateplasma/static/js/2.ba6dd949.chunk.js",
-    "static/js/2.ba6dd949.chunk.js.map": "/donateplasma/static/js/2.ba6dd949.chunk.js.map",
+    "static/css/2.d63883d1.chunk.css": "/donateplasma/static/css/2.d63883d1.chunk.css",
+    "static/js/2.1a1a4ec9.chunk.js": "/donateplasma/static/js/2.1a1a4ec9.chunk.js",
+    "static/js/2.1a1a4ec9.chunk.js.map": "/donateplasma/static/js/2.1a1a4ec9.chunk.js.map",
     "index.html": "/donateplasma/index.html",
-    "precache-manifest.727e566c82d34d88a0e729c5b3e4837a.js": "/donateplasma/precache-manifest.727e566c82d34d88a0e729c5b3e4837a.js",
+    "precache-manifest.85953e42e28da90307f53c97b2295c5a.js": "/donateplasma/precache-manifest.85953e42e28da90307f53c97b2295c5a.js",
     "service-worker.js": "/donateplasma/service-worker.js",
-    "static/css/2.61a6e784.chunk.css.map": "/donateplasma/static/css/2.61a6e784.chunk.css.map",
-    "static/css/main.dc6d1cbe.chunk.css.map": "/donateplasma/static/css/main.dc6d1cbe.chunk.css.map",
-    "static/js/2.ba6dd949.chunk.js.LICENSE.txt": "/donateplasma/static/js/2.ba6dd949.chunk.js.LICENSE.txt",
+    "static/css/2.d63883d1.chunk.css.map": "/donateplasma/static/css/2.d63883d1.chunk.css.map",
+    "static/css/main.36f26116.chunk.css.map": "/donateplasma/static/css/main.36f26116.chunk.css.map",
+    "static/js/2.1a1a4ec9.chunk.js.LICENSE.txt": "/donateplasma/static/js/2.1a1a4ec9.chunk.js.LICENSE.txt",
     "static/media/semantic.min.css": "/donateplasma/static/media/outline-icons.ef60a4f6.woff",
     "static/media/calling.svg": "/donateplasma/static/media/calling.ae2ae124.svg",
     "static/media/connect.svg": "/donateplasma/static/media/connect.83aaa479.svg",
+    "static/media/Home.module.css": "/donateplasma/static/media/covid-19.c724d1af.jpg",
     "static/media/donate.png": "/donateplasma/static/media/donate.615096e9.png",
     "static/media/medicalcare.png": "/donateplasma/static/media/medicalcare.f5cb6925.png",
     "static/media/sharedgoals.png": "/donateplasma/static/media/sharedgoals.3f3644b9.png",
@@ -24,9 +25,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.aa67ee20.js",
-    "static/css/2.61a6e784.chunk.css",
-    "static/js/2.ba6dd949.chunk.js",
-    "static/css/main.dc6d1cbe.chunk.css",
-    "static/js/main.353baa59.chunk.js"
+    "static/css/2.d63883d1.chunk.css",
+    "static/js/2.1a1a4ec9.chunk.js",
+    "static/css/main.36f26116.chunk.css",
+    "static/js/main.2b38ea58.chunk.js"
   ]
 }
