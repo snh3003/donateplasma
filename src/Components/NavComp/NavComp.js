@@ -20,57 +20,37 @@ class NavComp extends React.Component {
 					
 					<Nav className="ml-auto">
 						<Nav.Item>
-
-							<img 
-								alt=""
-								src="https://img.icons8.com/color/48/000000/home-page.png"
-								width='25px' height='25px'
-							/>
 						    <label>
-						    	<Nav.Link href="/donateplasma/">
+						    	<Nav.Link href="/donateplasma/" className="NavLink">
 									Home
 								</Nav.Link>
 						    </label>
 													 
 						</Nav.Item>
 						<Nav.Item>
-							<img alt=""
-						      src="https://img.icons8.com/doodle/48/000000/winged-heart.png"
-						      width='25px' height='25px'
-						       />
 							<label>
-						    	<Nav.Link href="/donateplasma/donors/">
+						    	<Nav.Link href="/donateplasma/donors/" className="NavLink">
 									Find Donors
 								</Nav.Link>
 						    </label>						 
 						</Nav.Item>
 						<Nav.Item>
-							<img alt=""
-					    		src="https://img.icons8.com/cotton/64/000000/receive-cash--v3.png"
-					    		width='25px' height='25px'
-					    	/>
 							<label>
-						    	<Nav.Link href="/donateplasma/newdonor/">
+						    	<Nav.Link href="/donateplasma/newdonor/" className="NavLink">
 									Donate plasma
 								</Nav.Link>
 						    </label>					 
 						</Nav.Item>	
 						<Nav.Item>
-							<img 
-								alt=""
-					    		src="https://img.icons8.com/dusk/64/000000/heart-health.png"
-					    		width='25px' height='25px'
-					    	/>
 							<label>
-						    	<Nav.Link href="/donateplasma/sharestory/">
+						    	<Nav.Link href="/donateplasma/sharestory/" className="NavLink">
 									Share your story
 								</Nav.Link>
 						    </label>					 
 						</Nav.Item>						
 					</Nav>
 				</Navbar.Collapse>
-			</Navbar>
-			
+			</Navbar>			
 		</div>
 	)
 	}

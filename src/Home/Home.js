@@ -3,6 +3,7 @@ import styles from './Home.module.css';
 import { Cards, Chart, CountryPicker } from '../Components';
 import { fetchData } from '../Components/api';
 import { TopSec } from '../Components/TopSec/TopSec';
+import { RecoveredStories } from '../Components/RecoveredStories/RecoveredStories.jsx';
 
 class Home extends React.Component{
 
@@ -36,12 +37,9 @@ class Home extends React.Component{
       <section>
         <TopSec />
         <div className={styles.container}>
-          <img className={styles.image} alt="" src='https://i.ibb.co/7QpKsCX/image.png'/>
           <Cards data={data} />
-          <CountryPicker handleCountryChange={this.handleCountryChange}/>
-          <Chart data={data} country={country}/>
         </div>
-        
+        <RecoveredStories />
       </section>
       
     );

@@ -9,8 +9,11 @@ const Cards = ({data: { confirmed, recovered, deaths, lastUpdate} }) => {
         return <p>Loading...</p>
     }
     return(
-        <div className={styles.container}>
-            
+        <div className={styles.container}> 
+            <br/>
+            <br/>
+            <br/>
+            <br/>           
             <Grid container spacing={3} justify="center">
                 <Grid item component={Card} xs={12} md={3} className={cx(styles.card, styles.infected)}>
                     <CardContent>

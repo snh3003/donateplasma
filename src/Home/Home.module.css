@@ -1,17 +1,16 @@
 
-
-.top{
-  background: url(../Components/assets/covid.jpg);
-  background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: auto;
-}
 .container{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    background: url(../Components/assets/stats.JPG);
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    
 }
 
 .image{
@@ -22,8 +21,5 @@
 @media (max-width: 770px){
   .container{
     margin: 0 10%;
-  }
-  .image{
-    width: 100%;
   }
 }

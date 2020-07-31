@@ -1,14 +1,11 @@
+.parent{
+    background: black;
+}
 .image{
     background: url(../assets/covid.jpg);
     width: 100%;
     height: 100%;
     background-attachment: fixed;
 	background-position: center;
-	background-repeat: no-repeat;
-}
-.about{
-    background: #D3D3D3;
-    display: flex;
-    flex-direction: row;
-    
+	
 }

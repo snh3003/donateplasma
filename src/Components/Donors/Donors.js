@@ -9,7 +9,7 @@ class Donors extends React.Component {
 	render(){
 		return (
 		<div>
-			
+			<center>
 			<h2>Find Donors</h2>
 			<section  className={styles.donorparent}>
 				<div className={styles.rightchild}>
@@ -81,7 +81,7 @@ class Donors extends React.Component {
 						          Jenny requested permission to view your contact details
 						        </Card.Description>
 						      </Card.Content>
-						      <Card.Content extra className={styles.cards}>
+						      <Card.Content extra>
 						        <div className='ui two buttons'>
 						          <Button basic color='green'>
 						            Call
@@ -129,7 +129,7 @@ class Donors extends React.Component {
 						          Jenny requested permission to view your contact details
 						        </Card.Description>
 						      </Card.Content>
-						      <Card.Content extra className={styles.cards}>
+						      <Card.Content extra>
 						        <div className='ui two buttons'>
 						          <Button basic color='green'>
 						            Call
@@ -153,7 +153,7 @@ class Donors extends React.Component {
 						          Molly wants to add you to the group <strong>musicians</strong>
 						        </Card.Description>
 						      </Card.Content>
-						      <Card.Content extra className={styles.cards}>
+						      <Card.Content extra>
 						        <div className='ui two buttons'>
 						          <Button basic color='green'>
 						            Call
@@ -178,7 +178,7 @@ class Donors extends React.Component {
 						          Molly wants to add you to the group <strong>musicians</strong>
 						        </Card.Description>
 						      </Card.Content>
-						      <Card.Content extra className={styles.cards}>
+						      <Card.Content extra>
 						        <div className='ui two buttons'>
 						          <Button basic color='green'>
 						            Call
@@ -196,6 +196,7 @@ class Donors extends React.Component {
 					<img alt="connect" src={connect} width="300px" height="300px"/>
 				</div>
 			</section>
+			</center>
 		</div>
 		)
 	}	
