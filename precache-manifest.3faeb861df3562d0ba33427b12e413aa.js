@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "685430d8d239e81f4e6327812e693150",
+    "revision": "1e558370f26d3ea0b1a7d1753c24e04e",
     "url": "/donateplasma/index.html"
   },
   {
-    "revision": "46b21c926d16daa82708",
+    "revision": "2b4574f7d32bcd2f4c88",
     "url": "/donateplasma/static/css/2.f31d88fe.chunk.css"
   },
   {
-    "revision": "b0af2b00764904d92861",
-    "url": "/donateplasma/static/css/main.4d99819e.chunk.css"
+    "revision": "c34c9293dc1147aba953",
+    "url": "/donateplasma/static/css/main.0f7f237d.chunk.css"
   },
   {
-    "revision": "46b21c926d16daa82708",
-    "url": "/donateplasma/static/js/2.952683af.chunk.js"
+    "revision": "2b4574f7d32bcd2f4c88",
+    "url": "/donateplasma/static/js/2.2ec09c09.chunk.js"
   },
   {
-    "revision": "a4a4756306daa4805d12a2aa97eb8d2d",
-    "url": "/donateplasma/static/js/2.952683af.chunk.js.LICENSE.txt"
+    "revision": "61e9fc59eae4dc7a05f7046c2a743dbe",
+    "url": "/donateplasma/static/js/2.2ec09c09.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b0af2b00764904d92861",
-    "url": "/donateplasma/static/js/main.d7a0aab3.chunk.js"
+    "revision": "c34c9293dc1147aba953",
+    "url": "/donateplasma/static/js/main.201a7b60.chunk.js"
   },
   {
     "revision": "a929c49df922e159cda1",
@@ -160,10 +160,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/donateplasma/static/media/icons.faff9214.woff"
   },
   {
-    "revision": "455fb654d3595cae37e8d6f065cbad0d",
-    "url": "/donateplasma/static/media/idea.455fb654.jpg"
-  },
-  {
     "revision": "f5cb692505ce852ac9437c1b5f9319e5",
     "url": "/donateplasma/static/media/medicalcare.f5cb6925.png"
   },
@@ -194,10 +190,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "0201c294aa956e059188257c67fa62d0",
     "url": "/donateplasma/static/media/pencil.0201c294.jpg"
-  },
-  {
-    "revision": "bd0400c164539b507d79e3ded8c53de5",
-    "url": "/donateplasma/static/media/plasma.bd0400c1.JPG"
   },
   {
     "revision": "3f3644b9c6999ca9a32210c51a93a87d",

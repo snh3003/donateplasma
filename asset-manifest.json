@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/donateplasma/static/css/main.4d99819e.chunk.css",
-    "main.js": "/donateplasma/static/js/main.d7a0aab3.chunk.js",
-    "main.js.map": "/donateplasma/static/js/main.d7a0aab3.chunk.js.map",
+    "main.css": "/donateplasma/static/css/main.0f7f237d.chunk.css",
+    "main.js": "/donateplasma/static/js/main.201a7b60.chunk.js",
+    "main.js.map": "/donateplasma/static/js/main.201a7b60.chunk.js.map",
     "runtime-main.js": "/donateplasma/static/js/runtime-main.aa67ee20.js",
     "runtime-main.js.map": "/donateplasma/static/js/runtime-main.aa67ee20.js.map",
     "static/css/2.f31d88fe.chunk.css": "/donateplasma/static/css/2.f31d88fe.chunk.css",
-    "static/js/2.952683af.chunk.js": "/donateplasma/static/js/2.952683af.chunk.js",
-    "static/js/2.952683af.chunk.js.map": "/donateplasma/static/js/2.952683af.chunk.js.map",
+    "static/js/2.2ec09c09.chunk.js": "/donateplasma/static/js/2.2ec09c09.chunk.js",
+    "static/js/2.2ec09c09.chunk.js.map": "/donateplasma/static/js/2.2ec09c09.chunk.js.map",
     "index.html": "/donateplasma/index.html",
-    "precache-manifest.5f9fd839c8a45f84229a312239bbd19a.js": "/donateplasma/precache-manifest.5f9fd839c8a45f84229a312239bbd19a.js",
+    "precache-manifest.3faeb861df3562d0ba33427b12e413aa.js": "/donateplasma/precache-manifest.3faeb861df3562d0ba33427b12e413aa.js",
     "service-worker.js": "/donateplasma/service-worker.js",
     "static/css/2.f31d88fe.chunk.css.map": "/donateplasma/static/css/2.f31d88fe.chunk.css.map",
-    "static/css/main.4d99819e.chunk.css.map": "/donateplasma/static/css/main.4d99819e.chunk.css.map",
-    "static/js/2.952683af.chunk.js.LICENSE.txt": "/donateplasma/static/js/2.952683af.chunk.js.LICENSE.txt",
+    "static/css/main.0f7f237d.chunk.css.map": "/donateplasma/static/css/main.0f7f237d.chunk.css.map",
+    "static/js/2.2ec09c09.chunk.js.LICENSE.txt": "/donateplasma/static/js/2.2ec09c09.chunk.js.LICENSE.txt",
     "static/media/mdb.css": "/donateplasma/static/media/arrow_right.8ef6a08c.svg",
     "static/media/semantic.min.css": "/donateplasma/static/media/outline-icons.ef60a4f6.woff",
     "static/media/calling.svg": "/donateplasma/static/media/calling.ae2ae124.svg",
@@ -22,11 +22,9 @@
     "static/media/covid19.JPG": "/donateplasma/static/media/covid19.1a7b312f.JPG",
     "static/media/donate.png": "/donateplasma/static/media/donate.615096e9.png",
     "static/media/all.min.css": "/donateplasma/static/media/fa-solid-900.ee09ad75.woff",
-    "static/media/idea.jpg": "/donateplasma/static/media/idea.455fb654.jpg",
     "static/media/medicalcare.png": "/donateplasma/static/media/medicalcare.f5cb6925.png",
     "static/media/mobileApp.svg": "/donateplasma/static/media/mobileApp.1eebeb7b.svg",
     "static/media/About.module.css": "/donateplasma/static/media/pencil.0201c294.jpg",
-    "static/media/plasma.JPG": "/donateplasma/static/media/plasma.bd0400c1.JPG",
     "static/media/sharedgoals.png": "/donateplasma/static/media/sharedgoals.3f3644b9.png",
     "static/media/Home.module.css": "/donateplasma/static/media/stats.35b886e0.JPG",
     "static/media/undraw.png": "/donateplasma/static/media/undraw.f5399086.png"
@@ -34,8 +32,8 @@
   "entrypoints": [
     "static/js/runtime-main.aa67ee20.js",
     "static/css/2.f31d88fe.chunk.css",
-    "static/js/2.952683af.chunk.js",
-    "static/css/main.4d99819e.chunk.css",
-    "static/js/main.d7a0aab3.chunk.js"
+    "static/js/2.2ec09c09.chunk.js",
+    "static/css/main.0f7f237d.chunk.css",
+    "static/js/main.201a7b60.chunk.js"
   ]
 }
