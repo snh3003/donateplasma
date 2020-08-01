@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1e558370f26d3ea0b1a7d1753c24e04e",
+    "revision": "dd7e7873d4d43a5fec217a9366502dca",
     "url": "/donateplasma/index.html"
   },
   {
-    "revision": "2b4574f7d32bcd2f4c88",
+    "revision": "f6a844e730fc51188717",
     "url": "/donateplasma/static/css/2.f31d88fe.chunk.css"
   },
   {
-    "revision": "c34c9293dc1147aba953",
-    "url": "/donateplasma/static/css/main.0f7f237d.chunk.css"
+    "revision": "276e3e848d33f6509447",
+    "url": "/donateplasma/static/css/main.b2c3efc8.chunk.css"
   },
   {
-    "revision": "2b4574f7d32bcd2f4c88",
-    "url": "/donateplasma/static/js/2.2ec09c09.chunk.js"
+    "revision": "f6a844e730fc51188717",
+    "url": "/donateplasma/static/js/2.d347622d.chunk.js"
   },
   {
     "revision": "61e9fc59eae4dc7a05f7046c2a743dbe",
-    "url": "/donateplasma/static/js/2.2ec09c09.chunk.js.LICENSE.txt"
+    "url": "/donateplasma/static/js/2.d347622d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c34c9293dc1147aba953",
-    "url": "/donateplasma/static/js/main.201a7b60.chunk.js"
+    "revision": "276e3e848d33f6509447",
+    "url": "/donateplasma/static/js/main.2fd76705.chunk.js"
   },
   {
     "revision": "a929c49df922e159cda1",
@@ -186,10 +186,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ef60a4f6c25ef7f39f2d25a748dbecfe",
     "url": "/donateplasma/static/media/outline-icons.ef60a4f6.woff"
-  },
-  {
-    "revision": "0201c294aa956e059188257c67fa62d0",
-    "url": "/donateplasma/static/media/pencil.0201c294.jpg"
   },
   {
     "revision": "3f3644b9c6999ca9a32210c51a93a87d",
