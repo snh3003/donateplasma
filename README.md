@@ -20,3 +20,12 @@ We propose a blockchain-based platform for people to volunteer to donate blood p
 3) A more trustable data source through a trustless system
   Yes, we are talking about integrating the ***Ethereum blockchain network**. Ethereum is popular for its immutable, decentralized yet transparent environment. Along with the power of **Matic** system, we can build a more effective and affordable database system.
 The need arose from the rising number of accusations on governments all around the world and in India, mainly due to the lack of transparency and immutability, where you can tamper with the data without anyone noticing. Since all the transactions get noted down on the Ethereum network forever, it will build a system that people can trust.
+
+**Tech Stack**  
+
+<code><img height="40" src="https://www.freecodecamp.org/news/content/images/size/w2000/2020/02/Ekran-Resmi-2019-11-18-18.08.13.png"></code>
+<code><img height="40" src="https://en.bitcoinwiki.org/upload/en/images/d/d5/Solidity.png"></code>
+<code><img height="40" src="https://i.ytimg.com/vi/l1vb5pjezJ8/maxresdefault.jpg"></code>
+<code><img height="40" src="https://www.thundercore.com/wp-content/uploads/2019/10/portis.jpg"></code>
+<code><img height="40" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1200px-Node.js_logo.svg.png"></code>
+<code><img height="40" src="https://miro.medium.com/max/1024/1*9HanDsRU11ZMsgDGJwN96w.png"></code> 
